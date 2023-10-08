@@ -3,10 +3,20 @@
   position: relative;
 }
 
+.landing-title-container {
+  position: absolute;
+  left: 10%;
+  top: 0%;
+  font-family: "Inknut Antiqua";
+  padding: 0;
+}
+
 .landing-title {
   position: absolute;
-  left: 20%;
-  top: 20%;
+  padding: 0;
+  font-size: 5rem;
+  color: white;
+  font-weight: 100;
 }
 
 .landing-image {
@@ -18,20 +28,107 @@
 
 .nav {
   position: absolute;
-  right: 25%;
-  top: 20%;
+  right: 30%;
+  top: 10%;
+  font-weight: 100;
+  color: white;
+  list-style: none;
+  font-size: 1.5rem;
 }
 
-/* Small screen */
-@media (max-width: 650px) {
+.nav-item {
+  margin: 1rem;
+}
+
+#resume-nav {
+  text-decoration: none;
+  color: white;
+}
+
+/* Mobile Devices */
+@media (min-width: 320px) {
+  .landing-title-container {
+    left: 5%;
+  }
+  .landing-title {
+    font-size: 2.2rem;
+    top: 0rem;
+  }
+  #pedrigal-title {
+    top: 2.2rem;
+  }
   .nav {
-    right: 27%;
+    top: 3%;
+    font-size: 1rem;
+  }
+  .nav-item {
+    margin: 0.2rem;
   }
 }
 
-/* Large screen */
-@media (min-width: 1060px) {
+/* Small screen - Desktop */
+@media (min-width: 480px) {
+  .landing-title {
+    font-size: 3.5rem;
+  }
+  #pedrigal-title {
+    top: 4rem;
+  }
   .nav {
-    top: 30%;
+    top: 7%;
+    font-size: 1.2rem;
+  }
+  .nav-item {
+    margin: 0.5rem;
+  }
+}
+
+/* Medium size screen - Desktop */
+@media (min-width: 600px) {
+  .landing-title {
+    font-size: 5rem;
+  }
+  #pedrigal-title {
+    top: 5.5rem;
+  }
+  .nav {
+    font-size: 1.7rem;
+  }
+  .nav-item {
+    margin: 0.4rem;
+  }
+}
+
+/* Large screen - Desktop */
+@media (min-width: 1025px) {
+  .landing-title {
+    font-size: 7rem;
+  }
+  #pedrigal-title {
+    top: 7.5rem;
+  }
+  .nav {
+    top: 8%;
+    right: 25%;
+    font-size: 2.5rem;
+  }
+  .nav-item {
+    margin: 0.5rem;
+  }
+}
+
+/* Humongous screen - Desktop */
+@media (min-width: 1281px) {
+  .landing-title {
+    font-size: 9rem;
+  }
+  #pedrigal-title {
+    top: 9.5rem;
+  }
+  .nav {
+    top: 12%;
+  }
+  .nav-item {
+    margin: 1rem;
   }
 }

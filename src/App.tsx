@@ -12,27 +12,40 @@ function App() {
   const contactRef: any = useRef(null);
 
   const scrollTo = (ref: any) => {
-    ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    ref.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "start",
+    });
   };
 
   return (
     <div>
       <div className="landing-image-container">
         <img src={FrontPage} alt="Landing Image" className="landing-image" />
-        <h1 className="landing-title">
-          &nbsp;paolo
-          <br />
-          pedrigal
-        </h1>
+        <div className="landing-title-container">
+          <h1 className="landing-title" id="paolo-title">
+            &nbsp;paolo
+          </h1>
+          <h1 className="landing-title" id="pedrigal-title">
+            pedrigal
+          </h1>
+        </div>
         <ul className="nav">
-          <li onClick={() => scrollTo(aboutRef)}>about</li>
-          <li onClick={() => scrollTo(projectsRef)}>projects</li>
-          <li>
-            <a href={resume} target="_blank">
+          <li className="nav-item" onClick={() => scrollTo(aboutRef)}>
+            about
+          </li>
+          <li className="nav-item" onClick={() => scrollTo(projectsRef)}>
+            projects
+          </li>
+          <li className="nav-item">
+            <a href={resume} target="_blank" id="resume-nav">
               resume
             </a>
           </li>
-          <li onClick={() => scrollTo(contactRef)}>contact</li>
+          <li className="nav-item" onClick={() => scrollTo(contactRef)}>
+            contact
+          </li>
         </ul>
       </div>
       <div ref={aboutRef}>
