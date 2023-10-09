@@ -1,5 +1,7 @@
+import { useRef, useEffect } from "react";
 import resume from "../Resume_PaoloPedrigal.pdf";
 import selfie from "./selfie-2023.jpg";
+import { observer } from "../utils/observer";
 import "./About.css";
 
 interface AboutMe {
@@ -11,6 +13,15 @@ interface AboutMe {
 const aboutMeInfo: AboutMe = require("./about.json");
 
 export default function About() {
+  const aboutMeContentRef: any = useRef(null);
+  const aboutRefs: any[] = [aboutMeContentRef];
+  useEffect(() => {
+    // aboutRefs.forEach((ref) => {
+    //   observer.observe(ref.current);
+    // });
+    observer.observe(aboutMeContentRef.current);
+  }, [aboutMeContentRef]);
+
   return (
     <div className="about-me-container">
       <div className="custom-shape-divider-bottom-1696887117">
@@ -26,7 +37,7 @@ export default function About() {
           ></path>
         </svg>
       </div>
-      <div className="about-me-content">
+      <div className="about-me-content" ref={aboutMeContentRef}>
         <div className="about-me-pic-container">
           <img
             src={selfie}

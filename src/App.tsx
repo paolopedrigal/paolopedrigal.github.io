@@ -4,6 +4,7 @@ import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import FrontPage from "./WebsiteFrontPage.jpg";
 import resume from "./Resume_PaoloPedrigal.pdf";
+import { observer } from "./utils/observer";
 import "./App.css";
 
 function App() {
@@ -36,14 +37,6 @@ function App() {
   };
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("show");
-        }
-      });
-    });
-
     landingRefs.forEach((ref) => {
       observer.observe(ref.current);
     });
