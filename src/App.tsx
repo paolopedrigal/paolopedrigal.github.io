@@ -2,7 +2,7 @@ import { useRef, useEffect } from "react";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
-import FrontPage from "./img/WebsiteFrontPage.jpg";
+import FrontPage from "./WebsiteFrontPage.jpg";
 import resume from "./Resume_PaoloPedrigal.pdf";
 import "./App.css";
 

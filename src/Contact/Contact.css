@@ -1,0 +1,9 @@
+.contact-container {
+  background: linear-gradient(#070728, #3a264a);
+  color: white;
+  padding: 10px;
+}
+
+.contact-heading {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+.about-me-container {
+  background: linear-gradient(#000000, #283652);
+  color: white;
+  padding: 15vh;
+  position: relative;
+}
+
+.about-me-pic-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.about-me-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CSS provided from https://www.shapedivider.app/ */
+.custom-shape-divider-bottom-1696837199 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin-bottom: -3px; /* To remove white line at bottom */
+}
+
+.custom-shape-divider-bottom-1696837199 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1696837199 .shape-fill {
+  fill: #ffffff;
+}

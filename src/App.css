@@ -95,8 +95,9 @@
     top: 4rem;
   }
   .nav {
-    top: 7%;
-    font-size: 1.2rem;
+    top: 0%;
+    right: 27%;
+    font-size: 1.1rem;
   }
   .nav-item {
     margin: 0.5rem;
