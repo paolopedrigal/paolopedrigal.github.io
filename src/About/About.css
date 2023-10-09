@@ -3,24 +3,112 @@
   color: white;
   padding: 15vh;
   position: relative;
+  /* display: flex;
+  flex-direction: row-reverse; */
 }
 
-.about-me-pic-container {
-  position: relative;
-  width: 300px;
-  height: 300px;
+/* CSS provided by shapedivider.app */
+.custom-shape-divider-bottom-1696887117 {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  width: 100%;
   overflow: hidden;
-  border-radius: 100%;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1696887117 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 36px;
+}
+
+.custom-shape-divider-bottom-1696887117 .shape-fill {
+  fill: #000000;
+}
+/* End of CSS from shapedivider.app */
+
+.about-me-pic-container {
+  position: absolute;
+  right: 10%;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
 }
 
 .about-me-pic {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+}
+
+.about-me-heading {
+  font-weight: 600;
+}
+
+.about-me-info {
+  position: relative;
+  width: 60%;
+}
+
+.about-me-description {
+  font-weight: 200;
+}
+
+.about-me-objective {
+  font-weight: 200;
+}
+
+.wave-container {
+  position: relative;
+}
+
+/* Mobile Devices */
+@media (min-width: 320px) {
+  .about-me-container {
+    padding-top: 30px;
+  }
+  .about-me-content {
+    height: 300px;
+  }
+  .about-me-pic-container {
+    opacity: 0;
+    /* position: relative;
+    margin-left: 5px;
+    width: 175px;
+    height: 175px; */
+    /* border-radius: 40%; */
+  }
+  .about-me-info {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+  }
+}
+
+/* Small screen - Desktop */
+@media (min-width: 480px) {
+}
+
+/* Medium size screen - Desktop */
+@media (min-width: 600px) {
+  .about-me-pic-container {
+    opacity: 1;
+  }
+}
+
+/* Large screen - Desktop */
+@media (min-width: 1025px) {
+}
+
+/* Humongous screen - Desktop */
+@media (min-width: 1281px) {
 }
 
 /* CSS provided from https://www.shapedivider.app/ */
-.custom-shape-divider-bottom-1696837199 {
+.custom-shape-divider-bottom-1696837850 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -28,16 +116,16 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
-  margin-bottom: -3px; /* To remove white line at bottom */
+  margin-bottom: -3px;
 }
 
-.custom-shape-divider-bottom-1696837199 svg {
+.custom-shape-divider-bottom-1696837850 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 50px;
+  height: 58px;
 }
 
-.custom-shape-divider-bottom-1696837199 .shape-fill {
+.custom-shape-divider-bottom-1696837850 .shape-fill {
   fill: #ffffff;
 }
