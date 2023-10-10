@@ -1,6 +1,23 @@
 [
   {
+    "id": "yourdle",
     "title": "Yourdle (Your + Wordle)",
-    "tech": "React, HTML/CSS, "
+    "tech": "React, HTML/CSS, PostgreSQL, Node.js, Express, AWS EC2",
+    "picFile": "yourdle_project.png",
+    "gitHubLink": "https://github.com/paolopedrigal/yourdle"
+  },
+  {
+    "id": "map",
+    "title": "Interactive Neighborhood Map",
+    "tech": "JavaScript, HTML, CSS, Python",
+    "picFile": "neighborhoods_project.png",
+    "gitHubLink": "https://github.com/paolopedrigal/map"
+  },
+  {
+    "id": "universal-studios",
+    "title": "Predicting Universal Studios Ratings",
+    "tech": "Python, pandas, NumPy, Matplotlib, NLTK",
+    "picFile": "universal_studios_ratings.png",
+    "gitHubLink": "https://github.com/paolopedrigal/universal-studio-ratings"
   }
 ]

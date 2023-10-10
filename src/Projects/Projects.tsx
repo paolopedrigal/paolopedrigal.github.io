@@ -1,9 +1,30 @@
+import { useRef, useEffect } from "react";
+import Project from "./Project/Project";
+import { observer } from "../utils/observer";
 import "./Projects.css";
 
+interface ProjectObject {
+  id: string;
+  title: string;
+  tech: string;
+  picFile: string;
+  gitHubLink: string;
+}
+
+const projectsData: ProjectObject[] = require("./projects.json");
+
 export default function Projects() {
+  const projectsHeadingRef: any = useRef(null);
+  const projectsItemsRef: any = useRef(null);
+  useEffect(() => {
+    observer.observe(projectsHeadingRef.current);
+    observer.observe(projectsItemsRef.current);
+  }, [projectsHeadingRef, projectsItemsRef]);
   return (
     <div className="projects-container">
-      <h1>My Projects.</h1>
+      <h1 className="projects-heading" ref={projectsHeadingRef}>
+        My Projects.
+      </h1>
       <div className="custom-shape-divider-bottom-1696836311">
         <svg
           data-name="Layer 1"
@@ -16,6 +37,16 @@ export default function Projects() {
             className="shape-fill"
           ></path>
         </svg>
+      </div>
+      <div className="project-items" ref={projectsItemsRef}>
+        {projectsData.map((project: ProjectObject) => (
+          <Project
+            title={project.title}
+            tech={project.tech}
+            picFile={project.picFile}
+            gitHubLink={project.gitHubLink}
+          />
+        ))}
       </div>
     </div>
   );

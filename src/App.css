@@ -1,3 +1,7 @@
+.app-container {
+  width: 100%;
+}
+
 .landing-image-container {
   background-color: #3c4146;
   position: relative;

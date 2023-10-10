@@ -43,7 +43,7 @@ function App() {
   }, landingRefs);
 
   return (
-    <div>
+    <div className="app-container">
       <div className="landing-image-container">
         <img src={FrontPage} alt="Landing Image" className="landing-image" />
         <div className="landing-title-container">

@@ -14,11 +14,7 @@ const aboutMeInfo: AboutMe = require("./about.json");
 
 export default function About() {
   const aboutMeContentRef: any = useRef(null);
-  const aboutRefs: any[] = [aboutMeContentRef];
   useEffect(() => {
-    // aboutRefs.forEach((ref) => {
-    //   observer.observe(ref.current);
-    // });
     observer.observe(aboutMeContentRef.current);
   }, [aboutMeContentRef]);
 

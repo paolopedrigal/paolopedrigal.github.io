@@ -4,11 +4,16 @@ Fonts imported:
 - Inknut Antiqua
 - Inter (weights: 100, 200, 400, 600, 700)
 */
+html,
+body {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 code {

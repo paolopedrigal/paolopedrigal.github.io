@@ -28,7 +28,7 @@
 .custom-shape-divider-bottom-1696887117 .shape-fill {
   fill: #000000;
 }
-/* End of CSS from shapedivider.app */
+/* End of CSS provided from https://www.shapedivider.app/ */
 
 .about-me-content {
   opacity: 0;
@@ -46,6 +46,7 @@
   height: 200px;
   width: 200px;
   overflow: hidden;
+  transition: all 0.7s;
 }
 
 .about-me-pic {
@@ -174,3 +175,4 @@
 .custom-shape-divider-bottom-1696837850 .shape-fill {
   fill: #ffffff;
 }
+/* End of CSS provided from https://www.shapedivider.app/ */
