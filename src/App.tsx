@@ -18,7 +18,6 @@ function App() {
   const aboutRef: any = useRef(null);
   const projectsRef: any = useRef(null);
   const contactRef: any = useRef(null);
-  const landingRefs: any[] = [paoloTitleRef, pedrigalTitleRef, navRef];
 
   const scrollTo = (ref: any) => {
     ref.current.scrollIntoView({
@@ -37,15 +36,19 @@ function App() {
   };
 
   useEffect(() => {
-    landingRefs.forEach((ref: any) => {
-      observer.observe(ref.current);
-    });
-  }, landingRefs);
+    observer.observe(paoloTitleRef.current);
+    observer.observe(pedrigalTitleRef.current);
+    observer.observe(navRef.current);
+  }, [paoloTitleRef, pedrigalTitleRef, navRef]);
 
   return (
     <div className="app-container">
       <div className="landing-image-container">
-        <img src={FrontPage} alt="Landing Image" className="landing-image" />
+        <img
+          src={FrontPage}
+          alt="Landing Background"
+          className="landing-image"
+        />
         <div className="landing-title-container">
           <h1 className="landing-title" id="paolo-title" ref={paoloTitleRef}>
             &nbsp;paolo
@@ -83,7 +86,7 @@ function App() {
             onMouseEnter={() => addUnderline(resumeNavRef)}
             onMouseLeave={() => removeUnderline(resumeNavRef)}
           >
-            <a href={resume} target="_blank" id="resume-nav">
+            <a href={resume} target="_blank" rel="noreferrer" id="resume-nav">
               resume
             </a>
           </li>

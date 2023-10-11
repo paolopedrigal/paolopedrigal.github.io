@@ -37,7 +37,7 @@ export default function About() {
         <div className="about-me-pic-container">
           <img
             src={selfie}
-            alt="Picture of Paolo Pedrigal"
+            alt="Portrait of Paolo Pedrigal"
             className="about-me-pic"
           />
         </div>
@@ -50,7 +50,12 @@ export default function About() {
             <span>{aboutMeInfo.aboutMeObjective}&nbsp;</span>
             <span>
               Check out my&nbsp;
-              <a href={resume} target="_blank" style={{ color: "white" }}>
+              <a
+                href={resume}
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "white" }}
+              >
                 resume
               </a>
               &nbsp;or&nbsp;
