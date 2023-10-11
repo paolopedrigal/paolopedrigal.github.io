@@ -124,18 +124,10 @@
   .contact-heading {
     font-size: 1.6rem;
   }
-  /* .github-image-container {
-    width: 64px;
-    height: 64px;
-  } */
-  /* .email-image-container {
-    width: 67px;
-    height: 50px;
-  } */
-  /* .linkedin-image-container {
-    width: 65px;
-    height: 65px;
-  } */
+  .contact-text,
+  .contact-hyperlink {
+    font-size: 1rem;
+  }
 }
 
 /* Small screen - Desktop */
@@ -157,7 +149,7 @@
   }
   .contact-text,
   .contact-hyperlink {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -168,7 +160,7 @@
   }
   .contact-text,
   .contact-hyperlink {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -179,9 +171,5 @@
   }
   .contact-heading {
     font-size: 2.3rem;
-  }
-  .contact-text,
-  .contact-hyperlink {
-    font-size: 1.3rem;
   }
 }

@@ -80,6 +80,10 @@
     left: 5%;
     width: 90%;
   }
+  .about-me-description,
+  .about-me-objective {
+    font-size: 1.04rem;
+  }
 }
 
 /* Small screen - Desktop */
@@ -135,7 +139,7 @@
   }
   .about-me-description,
   .about-me-objective {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
