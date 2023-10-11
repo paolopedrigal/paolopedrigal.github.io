@@ -37,7 +37,7 @@ function App() {
   };
 
   useEffect(() => {
-    landingRefs.forEach((ref) => {
+    landingRefs.forEach((ref: any) => {
       observer.observe(ref.current);
     });
   }, landingRefs);

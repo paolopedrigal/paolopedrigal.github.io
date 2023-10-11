@@ -27,7 +27,7 @@
 @media (min-width: 320px) {
   .project-pic {
     width: 300px;
-    height: 200px;
+    height: 175px;
     left: 12%;
     background-size: 175px 125px;
   }
@@ -40,6 +40,9 @@
 
 /* Small screen - Desktop */
 @media (min-width: 480px) {
+  .project-pic {
+    height: 190px;
+  }
 }
 
 /* Medium size screen - Desktop */

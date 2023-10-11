@@ -3,8 +3,6 @@
   color: white;
   padding: 15vh;
   position: relative;
-  /* display: flex;
-  flex-direction: row-reverse; */
 }
 
 /* CSS provided by shapedivider.app */
@@ -74,9 +72,6 @@
     padding-top: 30px;
     height: 300px;
   }
-  /* .about-me-content {
-    height: 300px;
-  } */
   .about-me-pic-container {
     opacity: 0;
   }
@@ -146,6 +141,9 @@
 
 /* Humongous screen - Desktop */
 @media (min-width: 1281px) {
+  .about-me-container {
+    padding-bottom: 0;
+  }
   .about-me-pic-container {
     width: 325px;
     height: 325px;

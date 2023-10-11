@@ -66,6 +66,9 @@
 
 /* Humongous screen - Desktop */
 @media (min-width: 1281px) {
+  .projects-container {
+    padding-bottom: 10%;
+  }
 }
 
 /* CSS provided from https://www.shapedivider.app/ */
