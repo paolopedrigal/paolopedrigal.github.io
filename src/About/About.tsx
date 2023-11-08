@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import resume from "../Resume_PaoloPedrigal.pdf";
+import resume from "../Resume_PaoloPedrigal_Portfolio.pdf";
 import selfie from "./selfie-2023.jpg";
 import { observer } from "../utils/observer";
 import "./About.css";

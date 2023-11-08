@@ -3,7 +3,7 @@ import About from "./About/About";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import FrontPage from "./WebsiteFrontPage.jpg";
-import resume from "./Resume_PaoloPedrigal.pdf";
+import resume from "./Resume_PaoloPedrigal_Portfolio.pdf";
 import { observer } from "./utils/observer";
 import "./App.css";
 
