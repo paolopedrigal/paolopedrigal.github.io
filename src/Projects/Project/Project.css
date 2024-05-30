@@ -75,10 +75,16 @@
   .project-description {
     width: fit-content(300px);
   }
+  .project-description-skill {
+    border-width: 1px;
+  }
 }
 
 /* Small screen - Desktop */
 @media (min-width: 480px) {
+  .project-description-skill {
+    border-width: 2px;
+  }
 }
 
 /* Medium size screen - Desktop */
