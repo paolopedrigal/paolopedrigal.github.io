@@ -1,52 +1,91 @@
 .project-container {
   position: relative;
+  width: 450px;
   margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
 }
 
 .project-pic {
-  position: relative;
-  width: 450px;
+  width: 100%;
   height: 250px;
+  height: auto;
+  position: relative;
   background-size: 150px 150px;
   filter: brightness(0.4) contrast(90%);
   background-repeat: repeat;
-  border-radius: 10%;
-  transition: all 2s;
+  border-radius: 25px 25px 0px 0px;
 }
 
 .project-title {
   position: absolute;
   width: 50%;
-  top: 40%;
-  left: 2rem;
+  top: 10%;
   color: white;
   font-weight: 600;
+  z-index: 2;
+}
+
+.project-description {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: fit-content(450px);
+  height: auto;
+  padding: 5px 15px 10px 15px;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.project-description-text {
+  font-weight: 600;
+  color: #000000;
+  font-size: 14px;
+}
+
+.project-description-skill {
+  border: solid;
+  border-width: 2px;
+  border-color: #9747ff;
+  padding: 3px;
+  color: #9747ff;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 3px;
 }
 
 /* Mobile Devices */
 @media (min-width: 320px) {
+  .project-container {
+    width: 300px;
+  }
   .project-pic {
     width: 300px;
     height: 175px;
-    left: 12%;
     background-size: 175px 125px;
   }
   .project-title {
-    top: 23%;
-    left: 4rem;
     width: 90%;
+  }
+  .project-description {
+    width: fit-content(300px);
   }
 }
 
 /* Small screen - Desktop */
 @media (min-width: 480px) {
-  .project-pic {
-    height: 190px;
-  }
 }
 
 /* Medium size screen - Desktop */
 @media (min-width: 600px) {
+  .project-container {
+    width: 340px;
+  }
   .project-pic {
     width: 340px;
     height: 220px;
@@ -55,17 +94,26 @@
     top: 19%;
     font-size: 1.8rem;
   }
+  .project-description {
+    width: fit-content(340px);
+  }
 }
 
 /* Large screen - Desktop */
 @media (min-width: 1025px) {
+  .project-container {
+    width: 400px;
+  }
+
   .project-pic {
     width: 400px;
     height: 265px;
   }
   .project-title {
-    left: 4.5rem;
     font-size: 2.1rem;
+  }
+  .project-description {
+    width: fit-content(400px);
   }
 }
 

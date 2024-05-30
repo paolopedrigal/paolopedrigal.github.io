@@ -1,23 +1,50 @@
 [
   {
+    "id": "mask",
+    "title": "Social Media Cards Mobile App",
+    "tech": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Redux",
+      "PostgreSQL",
+      "Supabase",
+      "Figma"
+    ],
+    "picFile": "mask_project.png",
+    "gitHubLink": "",
+    "description": "(IN DEVELOPMENT!) A mobile app that treats group conversations like a deck of cards."
+  },
+  {
     "id": "yourdle",
     "title": "Yourdle (Your + Wordle)",
-    "tech": "React, HTML/CSS, PostgreSQL, Node.js, Express, AWS EC2",
+    "tech": [
+      "React",
+      "JavaScript",
+      "HTML/CSS",
+      "PostgreSQL",
+      "Node.js",
+      "Express",
+      "AWS EC2"
+    ],
     "picFile": "yourdle_project.png",
-    "gitHubLink": "https://github.com/paolopedrigal/yourdle"
+    "gitHubLink": "https://github.com/paolopedrigal/yourdle",
+    "description": "A full stack website  that allows you to make *your* own version of Wordle (The NY Times)"
   },
   {
     "id": "map",
     "title": "Interactive Neighborhood Map",
-    "tech": "JavaScript, HTML, CSS, Python",
+    "tech": ["JavaScript", "HTML", "CSS", "Python"],
     "picFile": "neighborhoods_project.png",
-    "gitHubLink": "https://github.com/paolopedrigal/map"
+    "gitHubLink": "https://github.com/paolopedrigal/map",
+    "description": "Interactive map of neighborhoods in District 4 of San Jose, CA. Used in San Jose's District 4 City Councilmember 2024 election."
   },
   {
     "id": "universal-studios",
     "title": "Predicting Universal Studios Ratings",
-    "tech": "Python, pandas, NumPy, Matplotlib, NLTK",
+    "tech": ["Python", "pandas", "NumPy", "Matplotlib", "NLTK"],
     "picFile": "universal_studios_ratings.png",
-    "gitHubLink": "https://github.com/paolopedrigal/universal-studio-ratings"
+    "gitHubLink": "https://github.com/paolopedrigal/universal-studio-ratings",
+    "description": "Data analysis, natural language processing, and predictive ML model on a Universal Studios customer reviews dataset."
   }
 ]

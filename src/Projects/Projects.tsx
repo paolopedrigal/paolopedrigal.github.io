@@ -6,9 +6,10 @@ import "./Projects.css";
 interface ProjectObject {
   id: string;
   title: string;
-  tech: string;
+  tech: string[];
   picFile: string;
   gitHubLink: string;
+  description: string;
 }
 
 const projectsData: ProjectObject[] = require("./projects.json");
@@ -45,6 +46,7 @@ export default function Projects() {
             tech={project.tech}
             picFile={project.picFile}
             gitHubLink={project.gitHubLink}
+            description={project.description}
           />
         ))}
       </div>
