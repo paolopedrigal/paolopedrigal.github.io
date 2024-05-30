@@ -57,8 +57,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  width: 64px;
-  height: 64px;
+  width: 65px;
+  height: 65px;
   margin: 5px;
 }
 
@@ -128,6 +128,15 @@
   .contact-hyperlink {
     font-size: 1rem;
   }
+  .github-image-container,
+  .linkedin-image-container {
+    width: 55px;
+    height: 55px;
+  }
+  .email-image-container {
+    width: 55px;
+    height: 40px;
+  }
 }
 
 /* Small screen - Desktop */
@@ -150,6 +159,15 @@
   .contact-text,
   .contact-hyperlink {
     font-size: 1.05rem;
+  }
+  .github-image-container,
+  .linkedin-image-container {
+    width: 65px;
+    height: 65px;
+  }
+  .email-image-container {
+    width: 67px;
+    height: 50px;
   }
 }
 

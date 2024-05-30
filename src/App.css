@@ -78,8 +78,8 @@
   .nav {
     top: 3%;
     font-size: 1.3rem;
-    right: 30%;
-    width: 60%;
+    right: -5%;
+    width: 100%;
     font-weight: 200;
   }
   .nav-item {
@@ -120,6 +120,8 @@
   }
   .nav {
     top: 0%;
+    width: 60%;
+    right: 30%;
     font-size: 1.7rem;
   }
   .nav-item {
