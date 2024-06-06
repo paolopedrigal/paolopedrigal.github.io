@@ -56,7 +56,7 @@ export default function About() {
                 rel="noreferrer"
                 style={{ color: "white" }}
               >
-                CV
+                resume
               </a>
               &nbsp;or&nbsp;
               <a

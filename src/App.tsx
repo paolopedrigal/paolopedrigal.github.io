@@ -87,7 +87,7 @@ function App() {
             onMouseLeave={() => removeUnderline(resumeNavRef)}
           >
             <a href={resume} target="_blank" rel="noreferrer" id="resume-nav">
-              cv
+              resume
             </a>
           </li>
           <li
