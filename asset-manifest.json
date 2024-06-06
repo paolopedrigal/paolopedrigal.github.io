@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ef778f0.css",
-    "main.js": "/static/js/main.6c454370.js",
+    "main.css": "/static/css/main.b33ff4b9.css",
+    "main.js": "/static/js/main.8bf7ca8c.js",
     "static/media/WebsiteFrontPage.jpg": "/static/media/WebsiteFrontPage.05f01d919ccd55d1fa74.jpg",
     "static/media/selfie-2023.jpg": "/static/media/selfie-2023.c050598e3a1c82ff1abc.jpg",
-    "static/media/Resume_PaoloPedrigal_Portfolio.pdf": "/static/media/Resume_PaoloPedrigal_Portfolio.273e26284a6120692e00.pdf",
+    "static/media/Resume_PaoloPedrigal_Portfolio.pdf": "/static/media/Resume_PaoloPedrigal_Portfolio.4bc157a42c4724f26ea9.pdf",
     "static/media/linkedin-icon-logo.png": "/static/media/linkedin-icon-logo.dee31da8e306dbdc1aba.png",
     "index.html": "/index.html",
-    "main.8ef778f0.css.map": "/static/css/main.8ef778f0.css.map",
-    "main.6c454370.js.map": "/static/js/main.6c454370.js.map"
+    "main.b33ff4b9.css.map": "/static/css/main.b33ff4b9.css.map",
+    "main.8bf7ca8c.js.map": "/static/js/main.8bf7ca8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ef778f0.css",
-    "static/js/main.6c454370.js"
+    "static/css/main.b33ff4b9.css",
+    "static/js/main.8bf7ca8c.js"
   ]
 }
