@@ -96,7 +96,7 @@
 /* Medium size screen - Desktop */
 @media (min-width: 600px) {
   .about-me-container {
-    height: 475px;
+    height: 445px;
   }
   .about-me-pic-container {
     opacity: 1;
@@ -121,6 +121,7 @@
 @media (min-width: 1025px) {
   .about-me-container {
     padding-top: 50px;
+    height: 475px;
   }
 
   .about-me-pic-container {
