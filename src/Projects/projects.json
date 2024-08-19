@@ -16,6 +16,23 @@
     "description": "(IN DEVELOPMENT!) A mobile app that treats group conversations like a deck of cards."
   },
   {
+    "id": "workout-cli",
+    "title": "Workout Logger for Programmers",
+    "tech": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy"
+    ],
+    "picFile": "workout_cli_project.png",
+    "gitHubLink": "https://github.com/paolopedrigal/workout-cli",
+    "description": "A full stack web-based shell command line interface for tracking workout/exercise sessions."
+  },
+  {
     "id": "yourdle",
     "title": "Yourdle (Your + Wordle)",
     "tech": [
@@ -29,7 +46,7 @@
     ],
     "picFile": "yourdle_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/yourdle",
-    "description": "A full stack website  that allows you to make *your* own version of Wordle (The NY Times)"
+    "description": "A full stack website that allows you to make *your* own version of Wordle (The NY Times)"
   },
   {
     "id": "map",
