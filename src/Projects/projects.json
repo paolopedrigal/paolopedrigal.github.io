@@ -70,5 +70,13 @@
     "picFile": "universal_studios_ratings.png",
     "gitHubLink": "https://github.com/paolopedrigal/universal-studio-ratings",
     "description": "Data analysis, natural language processing, and predictive ML model on a Universal Studios customer reviews dataset."
+  },
+  {
+    "id": "redesign-netflix",
+    "title": "Redesigning Netflix for Extended Accessibiilty",
+    "tech": ["Figma", "UI/UX Design"],
+    "picFile": "redesign_netflix.png",
+    "gitHubLink": "https://www.figma.com/design/dDoMgOhpIWDfXnTDvXVh4l/P3-Interactive-Prototype?m=auto&t=FHVyUGUQbpUBIDC2-6",
+    "description": "Based on a group case study, Netflix lacks some accessibility features for those who are visually impaired. This design includes a new Settings page specifically designed that offers more accessibility."
   }
 ]
