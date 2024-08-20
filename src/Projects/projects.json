@@ -59,7 +59,14 @@
   {
     "id": "universal-studios",
     "title": "Predicting Universal Studios Ratings",
-    "tech": ["Python", "pandas", "NumPy", "Matplotlib", "NLTK"],
+    "tech": [
+      "Python",
+      "pandas",
+      "NumPy",
+      "Matplotlib",
+      "NLTK",
+      "Machine Learning"
+    ],
     "picFile": "universal_studios_ratings.png",
     "gitHubLink": "https://github.com/paolopedrigal/universal-studio-ratings",
     "description": "Data analysis, natural language processing, and predictive ML model on a Universal Studios customer reviews dataset."
