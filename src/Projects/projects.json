@@ -1,21 +1,5 @@
 [
   {
-    "id": "mask",
-    "title": "Social Media Cards Mobile App",
-    "tech": [
-      "TypeScript",
-      "React Native",
-      "Expo",
-      "Redux",
-      "PostgreSQL",
-      "Supabase",
-      "Figma"
-    ],
-    "picFile": "mask_project.png",
-    "gitHubLink": "https://github.com/paolopedrigal/mask",
-    "description": "(IN DEVELOPMENT!) A mobile app that treats group conversations like a deck of cards."
-  },
-  {
     "id": "workout-cli",
     "title": "Workout Logger for Programmers",
     "tech": [
@@ -31,6 +15,22 @@
     "picFile": "workout_cli_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/workout-cli",
     "description": "A full stack web-based shell command line interface for tracking workout/exercise sessions."
+  },
+  {
+    "id": "mask",
+    "title": "Social Media Cards Mobile App",
+    "tech": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "Redux",
+      "PostgreSQL",
+      "Supabase",
+      "Figma"
+    ],
+    "picFile": "mask_project.png",
+    "gitHubLink": "https://github.com/paolopedrigal/mask",
+    "description": "(IN DEVELOPMENT!) A mobile app that treats group conversations like a deck of cards."
   },
   {
     "id": "yourdle",
