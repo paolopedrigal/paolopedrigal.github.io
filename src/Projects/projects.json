@@ -10,7 +10,9 @@
       "Python",
       "FastAPI",
       "PostgreSQL",
-      "SQLAlchemy"
+      "SQLAlchemy",
+      "Docker",
+      "AWS"
     ],
     "picFile": "workout_cli_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/workout-cli",
