@@ -54,14 +54,14 @@ export default function About() {
                 href={resume}
                 target="_blank"
                 rel="noreferrer"
-                style={{ color: "white" }}
+                style={{ color: "white", textUnderlineOffset: "8px" }}
               >
                 resume
               </a>
               &nbsp;or&nbsp;
               <a
                 href="mailto:paolopedrigal@gmail.com"
-                style={{ color: "white" }}
+                style={{ color: "white", textUnderlineOffset: "8px" }}
               >
                 contact me.
               </a>

@@ -37,14 +37,30 @@
   opacity: 1;
 }
 
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* height: 200px;
+  width: 200px; */
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: solid 20px transparent;
+}
+
 .about-me-pic-container {
   position: absolute;
   right: 10%;
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  aspect-ratio: 1;
   overflow: hidden;
-  transition: all 0.7s;
+
+  /* border: solid 3px white;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  mask: linear-gradient(rgb(255, 255, 255) 0 0) padding-box,
+    conic-gradient(#000000 var(--p, 85%), transparent 0%) border-box; */
 }
 
 .about-me-pic {
@@ -115,8 +131,8 @@
     opacity: 1;
     top: 20%;
     right: 8%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     right: 10%;
   }
 
@@ -138,11 +154,11 @@
   .about-me-container {
     padding-bottom: 0;
   }
-  .about-me-pic-container {
+  /* .about-me-pic-container {
     width: 325px;
     height: 325px;
     right: 10%;
-  }
+  } */
 }
 
 /* CSS provided from https://www.shapedivider.app/ */
