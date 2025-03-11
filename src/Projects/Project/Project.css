@@ -94,6 +94,7 @@
 @media (min-width: 600px) {
   .project-container {
     width: 340px;
+    height: 395px;
   }
   .project-pic {
     width: 340px;
