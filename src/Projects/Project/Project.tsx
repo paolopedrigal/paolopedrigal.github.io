@@ -22,11 +22,7 @@ export default function Project(props: {
   return (
     <div
       className="project-container"
-      style={
-        isHovered
-          ? { boxShadow: "0 0 11px rgba(33,33,33,.2)" }
-          : { boxShadow: "none" }
-      }
+      style={{ boxShadow: isHovered ? "0 0 11px rgba(33,33,33,.2)" : "none" }}
     >
       {props.gitHubLink !== "" ? (
         <a
@@ -39,11 +35,20 @@ export default function Project(props: {
         >
           <div
             className="project-pic"
-            style={{ backgroundImage: `url(${picPath})` }}
+            style={{
+              backgroundImage: `url(${picPath})`,
+            }}
           ></div>
           <h2
             className="project-title"
-            style={isHovered ? { color: "#D6C84F" } : { color: "#FFFFFF" }}
+            style={
+              isHovered
+                ? {
+                    color: "#D6C84F",
+                    transform: "scale(1.05) translateY(-2%) translateX(2%)",
+                  }
+                : { color: "#FFFFFF" }
+            }
           >
             {props.title}
           </h2>
@@ -56,7 +61,14 @@ export default function Project(props: {
           ></div>
           <h2
             className="project-title"
-            style={isHovered ? { color: "#D6C84F" } : { color: "#FFFFFF" }}
+            style={
+              isHovered
+                ? {
+                    color: "#D6C84F",
+                    transform: "scale(1.05) translateY(-2%) translateX(2%)",
+                  }
+                : { color: "#FFFFFF" }
+            }
           >
             {props.title}
           </h2>
