@@ -10,7 +10,6 @@
       "Python",
       "FastAPI",
       "PostgreSQL",
-      "SQLAlchemy",
       "Docker",
       "AWS"
     ],
@@ -32,7 +31,7 @@
     ],
     "picFile": "mask_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/mask",
-    "description": "(IN DEVELOPMENT!) A mobile app that treats group conversations like a deck of cards."
+    "description": "A mobile app that treats group conversations like a deck of cards."
   },
   {
     "id": "ai-slides-splitter",
@@ -63,7 +62,7 @@
     ],
     "picFile": "yourdle_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/yourdle",
-    "description": "A full stack website that allows you to make *your* own version of Wordle (The NY Times)"
+    "description": "A full stack website that allows you to make your own version of Wordle (The NY Times)."
   },
   {
     "id": "map",
