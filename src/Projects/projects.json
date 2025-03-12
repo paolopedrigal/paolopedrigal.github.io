@@ -15,7 +15,7 @@
     ],
     "picFile": "workout_cli_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/workout-cli",
-    "description": "A full stack web-based shell command line interface for tracking workout/exercise sessions."
+    "description": "A full stack web-based CLI that uses the idea of Git version control for tracking exercise sessions."
   },
   {
     "id": "mask",
