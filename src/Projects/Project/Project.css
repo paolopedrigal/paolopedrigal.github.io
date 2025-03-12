@@ -9,6 +9,12 @@
   transition: all 1s;
   transition: box-shadow 0.3s;
   border-radius: 25px;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.project-container.show {
+  opacity: 1;
 }
 
 .project-pic {

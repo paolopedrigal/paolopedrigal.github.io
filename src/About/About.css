@@ -30,7 +30,7 @@
 
 .about-me-content {
   opacity: 0;
-  transition: all 3.5s;
+  transition: all 2.5s;
 }
 
 .about-me-content.show {

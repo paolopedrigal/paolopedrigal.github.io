@@ -16,11 +16,9 @@ const projectsData: ProjectObject[] = require("./projects.json");
 
 export default function Projects() {
   const projectsHeadingRef: any = useRef(null);
-  const projectsItemsRef: any = useRef(null);
   useEffect(() => {
     observer.observe(projectsHeadingRef.current);
-    observer.observe(projectsItemsRef.current);
-  }, [projectsHeadingRef, projectsItemsRef]);
+  }, [projectsHeadingRef]);
   return (
     <div className="projects-container">
       <h1 className="projects-heading" ref={projectsHeadingRef}>
@@ -39,7 +37,7 @@ export default function Projects() {
           ></path>
         </svg>
       </div>
-      <div className="project-items" ref={projectsItemsRef}>
+      <div className="project-items">
         {projectsData.map((project: ProjectObject) => (
           <Project
             title={project.title}

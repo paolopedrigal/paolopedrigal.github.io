@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./Project.css";
+import { observer } from "../../utils/observer";
 
 export default function Project(props: {
   title: string;
@@ -9,8 +10,8 @@ export default function Project(props: {
   description: string;
 }) {
   const picPath: string = "/img/" + props.picFile;
-
   const [isHovered, setIsHovered] = useState(false);
+  const projectRef: any = useRef(null);
 
   const hover = () => {
     setIsHovered(true);
@@ -19,9 +20,14 @@ export default function Project(props: {
     setIsHovered(false);
   };
 
+  useEffect(() => {
+    observer.observe(projectRef.current);
+  }, [projectRef]);
+
   return (
     <div
       className="project-container"
+      ref={projectRef}
       style={{ boxShadow: isHovered ? "0 0 11px rgba(33,33,33,.2)" : "none" }}
     >
       {props.gitHubLink !== "" ? (
