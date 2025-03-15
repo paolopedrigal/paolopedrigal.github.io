@@ -67,7 +67,7 @@
   {
     "id": "map",
     "title": "Interactive Neighborhood Map",
-    "tech": ["JavaScript", "HTML", "CSS", "Python"],
+    "tech": ["JavaScript", "HTML", "CSS", "Python", "Google Analytics"],
     "picFile": "neighborhoods_project.png",
     "gitHubLink": "https://github.com/paolopedrigal/map",
     "description": "Interactive map of neighborhoods in District 4 of San Jose, CA. Used in San Jose's District 4 City Councilmember 2024 election."
